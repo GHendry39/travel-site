@@ -37,10 +37,14 @@
   }
 
   &--b-margin-small {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 
   &--b-margin-large {
     margin-bottom: 1.6em;
+  }
+
+  &--no-t-margin {
+    margin-top: 0;
   }
 }
