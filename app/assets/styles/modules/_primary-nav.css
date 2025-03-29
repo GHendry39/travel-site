@@ -17,8 +17,7 @@
     padding: 12px 20px 12px 0;
 
     @mixin atMedium {
-      padding-top: 0;
-      padding-right: 20px;
+      padding: 0 20px 0 0;
     }
   }
 
@@ -43,6 +42,10 @@
       padding: 12px 0;
       font-size: 1rem;
       background-color: transparent;
+
+      &.is-current-link {
+        color: #fabb69;
+      }
     }
   }
 }
