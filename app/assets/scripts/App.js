@@ -4,6 +4,20 @@ import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 import ClientArea from "./modules/ClientArea";
 
+// // React related code goes here
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import { divide } from "lodash";
+
+// //Import React component
+// import MyAmazingComponent from "./modules/myAmazingComponent";
+
+// ReactDOM.createRoot(document.querySelector("#my-react-example")).render(
+//   <React.StrictMode>
+//     <MyAmazingComponent />
+//   </React.StrictMode>
+// );
+
 new ClientArea();
 new StickyHeader();
 new MobileMenu();
